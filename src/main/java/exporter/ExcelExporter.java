@@ -32,7 +32,6 @@ public class ExcelExporter implements DataExporter {
                 sheetName = componentType.getSimpleName();
             }
 
-            //Sheet sheet = workbook.createSheet(sheetName);
             XSSFSheet sheet = workbook.createSheet(sheetName);
 
             // 2. create header row
